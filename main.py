@@ -1,7 +1,5 @@
 import face_recognition
 
-#You may need a lot of images to train them first.
-
 billGatesPicture = face_recognition.load_image_file("bill.jpg")
 billFaceEncoding = face_recognition.face_encodings(billGatesPicture)[0]
 
