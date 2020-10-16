@@ -9,7 +9,7 @@ unknownFaceEncoding = face_recognition.face_encodings(unknownPicture)[0]
 results = face_recognition.compare_faces([billFaceEncoding],unknownFaceEncoding)
 
 if results[0] == True:
-    print("Unknown Picture is of Bill Gates")
+    print("Unknown Picture is of Bill")
 else:
-    print("Unknown Picture is not of Bill Gates")
+    print("Unknown Picture is not of Bill")
 
